@@ -45,7 +45,7 @@ ex - `js`:
 * 该段代码，会自动被替换为` <script src="c.min.js"></script>`
 * 注意：在生成js文件路径前，需要将组件名写上，例如`button/c.min.js`。
 
-**注意：所有css/js文件均需要卸载block块中，否则buildi发布完，dist文件夹中会没有该文件。**
+**注意：所有css/js文件均需要卸载block块中，否则build发布完，dist文件夹中会没有该文件。**
 
 ### 组件结构
 * 新的组件，需要在`src`文件夹中新建相关组件文件夹，js/css文件均直接在组件文件夹中，不再创建`js/css`等子文件夹。
