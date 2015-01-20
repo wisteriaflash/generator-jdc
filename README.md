@@ -24,10 +24,10 @@ PS：grunt linveload监听所有`scss、js、html`文件，`scss`文件会自动
 
 ex - `css`：
 
-  <!-- build:css button/base.min.css -->
-  <link rel="stylesheet" href="base1.css">
-  <link rel="stylesheet" href="base2.css">
-  <!-- endbuild -->
+	<!-- build:css button/base.min.css -->
+	<link rel="stylesheet" href="base1.css">
+	<link rel="stylesheet" href="base2.css">
+	<!-- endbuild -->
 
 * 上述代码会将`base1`,`base2`两个css文件合并、压缩为base.min.css。
 * 该段代码，会自动被替换为` <link rel="stylesheet" href="base.min.css">`
@@ -36,10 +36,10 @@ ex - `css`：
 
 ex - `js`:
 
-  <!-- build:js button/c.min.js -->
-  <script src="a.js"></script>
-  <script src="b.js"></script>
-  <!-- endbuild -->
+	<!-- build:js button/c.min.js -->
+ 	<script src="a.js"></script>
+  	<script src="b.js"></script>
+  	<!-- endbuild -->
   
 * 上述代码会将`a.js`,`b.js`两个js文件合并、压缩为c.min.js。
 * 该段代码，会自动被替换为` <script src="c.min.js"></script>`
