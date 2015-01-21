@@ -1,5 +1,5 @@
 #generater - jdc
-===
+---
 
 ### 前期准备
 * `yoman`相关安装：`npm install -g yo bower grunt-cli gulp`
