@@ -1,4 +1,10 @@
 #generater - jdc
+====
+
+### 前期准备
+* `yoman`相关安装：`npm install -g yo bower grunt-cli gulp`
+* 运行检查命令：`yo doctor`，根据`yo doctor`的结果添加`yo`为全局变量。
+
 
 
 ### 安装
