@@ -65,8 +65,8 @@ ex - `js`:
 ### 其他
 
 * bower：使用`bower`，来管理js框架等资源文件的版本等，依赖文件见配置文件`bower.json`，安装的资源文件安装见`bower_components`。
-* npm镜像：建议使用淘宝npm镜像，以保证npm安装顺畅，设置方法如下：
-  * `npm config set registry https://registry.npm.taobao.org`
-  * `npm info underscore` （如果上面配置正确这个命令会有字符串response）
+* npm镜像：建议使用cnpm镜像，以保证npm安装顺畅，设置方法如下：
+  * `npm config set registry https://registry.cnpmjs.org`
+  * `npm get registry`
  
 * win下推荐使用命令行工具：[cmder](http://bliker.github.io/cmder/)
