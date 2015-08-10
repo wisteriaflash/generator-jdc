@@ -69,4 +69,4 @@ ex - `js`:
   * `npm config set registry https://registry.cnpmjs.org`
   * `npm get registry`
  
-* win下推荐使用命令行工具：[cmder](http://bliker.github.io/cmder/)
+* win下推荐使用命令行工具：[cmder](http://bliker.github.io/cmder/) 
